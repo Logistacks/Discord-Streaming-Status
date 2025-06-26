@@ -5,8 +5,7 @@ client.on('ready', () => {
     console.log(`Logged in as ${client.user.tag}!`);
     client.user.setActivity('https://dsc.gg/logistack', { 
         type: 'STREAMING',
-        url: 'https://twitch.tv/channel', // Replace with a valid URL
-        name: 'https://dsc.gg/logistack'
+        url: 'https://www.twitch.tv/twitch' // Replace with a valid twitch account URL
     });
 });
 
